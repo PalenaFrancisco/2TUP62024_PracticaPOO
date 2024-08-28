@@ -2,9 +2,6 @@
 {
     public class BigPhotoBook : PhotoBook
     {
-        public BigPhotoBook()
-        {
-            numPages = 64;
-        }
+        public BigPhotoBook() : base(64){}
     }
 }
